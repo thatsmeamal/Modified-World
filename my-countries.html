@@ -1,0 +1,20 @@
+<img src="Pics/logo.png" width=90px height=90px alt="NOOOOOOOOOOOOOO"/> 
+
+<div style="margin:0 auto;width:450px">
+    {{"COUNTRY NAME"}}
+    <select class="form-control" style="text-align-last:center;width:400px" id="sel1" ng-model="contry" ng-options="x for x in clist">
+    </select>
+
+    <br><br><br>
+	
+	<a href="#/details" class="btn btn-info" style="margin-left:150px" role="button" ng-click="cntrl.getDetails();">Submit</a>
+
+	<br><br><br>
+</div>
+
+	<div>
+	    <c-details></c-details>
+	</div>
+
+	<div ng-view></div>
+

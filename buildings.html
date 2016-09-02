@@ -1,0 +1,11 @@
+<div style="background-color:white;width:800px;margin:0 auto;">
+	<h2>Public Buildings</h2>
+	<ul ng-hide="alertpBuildings">
+		<li ng-repeat="x in pbuildings">{{x}}</li>
+	</ul>
+
+	<div ng-show="alertpBuildings">
+		{{"NOTHING TO SHOW"}}
+	</div>
+</div>
+	
